@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+
+    <!--Meta tags Starts-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Meta tags Ends-->
+
+
+    <!--Links Starts-->
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <!--Links ends-->
+
+
+    <!--Title-->
+    <title>JQ UI Practice</title>
+
+</head>
+
+<body>
+
+
+    <!--My code starts from here-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>1.Draggable</h4>
+                <div id="snaptarget" class="ui-widget-header">
+                    <p>I'm a snap target</p>
+                </div>
+
+                <br>
+
+                <div id="draggable" class="draggable ui-widget-content">
+                    <p>snaps to all other draggable elements</p>
+                </div>
+
+                <div id="draggable2" class="draggable ui-widget-content">
+                    <p>I only snap to the big box</p>
+                </div>
+
+                <div id="draggable3" class="draggable ui-widget-content">
+                    <p>I only snap to the outer edges of the big box</p>
+                </div>
+
+                <div id="draggable4" class="draggable ui-widget-content">
+                    <p>I snap to a 20 x 20 grid</p>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <ul class="sort_draggable">
+                    <li id="draggableb" class="sort_draggable_li ui-state-highlight">Drag me down</li>
+                </ul>
+
+                <ul id="sortableb">
+                    <li class="sort_draggable_li ui-state-default">Item 1</li>
+                    <li class="sort_draggable_li ui-state-default">Item 2</li>
+                    <li class="sort_draggable_li ui-state-default">Item 3</li>
+                    <li class="sort_draggable_li ui-state-default">Item 4</li>
+                    <li class="sort_draggable_li ui-state-default">Item 5</li>
+                </ul>
+            </div>
+        </div>
+    </div><br>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>2.Droppable</h4>
+                <h5>Feedback on hover:</h5>
+
+                <div id="draggablec" class="ui-widget-content">
+                    <p>Drag me to my target</p>
+                </div>
+
+                <div id="droppable" class="ui-widget-header">
+                    <p>Drop here</p>
+                </div>
+
+                <h5>Feedback on activating draggable:</h5>
+
+                <div id="draggable2c" class="ui-widget-content">
+                    <p>Drag me to my target</p>
+                </div>
+
+                <div id="droppable2" class="ui-widget-header">
+                    <p>Drop here</p>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>3.Sortable</h4>
+                <ul id="sortable1" class="connectedSortable">
+                    <li class="ui-state-default">Item 1</li>
+                    <li class="ui-state-default">Item 2</li>
+                    <li class="ui-state-default">Item 3</li>
+                    <li class="ui-state-default">Item 4</li>
+                    <li class="ui-state-default">Item 5</li>
+                </ul>
+
+                <ul id="sortable2" class="connectedSortable">
+                    <li class="ui-state-highlight">Item 1</li>
+                    <li class="ui-state-highlight">Item 2</li>
+                    <li class="ui-state-highlight">Item 3</li>
+                    <li class="ui-state-highlight">Item 4</li>
+                    <li class="ui-state-highlight">Item 5</li>
+                </ul>
+            </div>
+        </div>
+    </div><br>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>4.Accordion</h4>
+                <div id="accordion">
+                    <h3>Section 1</h3>
+                    <div>
+                        <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+                    </div>
+                    <h3>Section 2</h3>
+                    <div>
+                        <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+                    </div>
+                    <h3>Section 3</h3>
+                    <div>
+                        <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+                        <ul>
+                            <li>List item one</li>
+                            <li>List item two</li>
+                            <li>List item three</li>
+                        </ul>
+                    </div>
+                    <h3>Section 4</h3>
+                    <div>
+                        <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p>
+                        <p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>5.Auto complete</h4>
+                <div class="ui-widget">
+                    <label for="tags">Tag programming languages: </label>
+                    <input id="tags" size="50">
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>6.Check box Radio</h4>
+                <div class="controls">
+                    <div class="brand-wrap">
+                        <h3>1.) Select a brand</h3>
+                        <div class="brand">
+                            <label for="brand-jquery">jQuery</label>
+                            <input type="radio" name="brand" id="brand-jquery" data-background-color="#0769AD" data-color="#7ACEF4" data-background-image="url(images/jquery.png)">
+                            <label for="brand-jquery-ui">jQuery UI</label>
+                            <input type="radio" name="brand" id="brand-jquery-ui" data-background-color="#B24926" data-color="#FAA523" data-background-image="url(images/jquery-ui.png)" checked>
+                            <label for="brand-jquery-mobile">jQuery Mobile</label>
+                            <input type="radio" name="brand" id="brand-jquery-mobile" data-background-color="#108040" data-color="#3EB249" data-background-image="url(images/jquery-mobile.png)">
+                            <label for="brand-sizzle">Sizzle</label>
+                            <input type="radio" name="brand" id="brand-sizzle" data-background-color="#9A1B1E" data-color="#FAA523" data-background-image="url(images/sizzle.png)">
+                            <label for="brand-qunit">QUnit</label>
+                            <input type="radio" name="brand" id="brand-qunit" data-background-color="#390F39" data-color="#9C3493" data-background-image="url(images/qunit.png)">
+                        </div>
+                    </div>
+                    <div class="shape-wrap">
+                        <h3>2.) Select a shape</h3>
+                        <div class="shape-bar">
+                            <label for="shape-circle">Circle</label>
+                            <input type="radio" name="shape" id="shape-circle" value="circle" checked>
+                            <label for="shape-square">Square</label>
+                            <input type="radio" name="shape" id="shape-square" value="square">
+                            <label for="shape-pill">Pill</label>
+                            <input type="radio" name="shape" id="shape-pill" value="pill">
+                            <label for="shape-rectangle">Rectangle</label>
+                            <input type="radio" name="shape" id="shape-rectangle" value="rectangle">
+                        </div>
+                    </div>
+                    <div class="toggle-wrap">
+                        <h3>3.) Customize</h3>
+                        <div class="toggles">
+                            <label for="color">Shadow</label>
+                            <input class="toggle brand-toggle" type="checkbox" name="color" id="color">
+                            <label for="border">Border</label>
+                            <input class="toggle" type="checkbox" name="border" id="border">
+                            <label for="background-color">Background</label>
+                            <input class="toggle brand-toggle" type="checkbox" name="background-color" id="background-color" checked>
+                            <label for="background-image">Background Image</label>
+                            <input class="toggle brand-toggle" type="checkbox" name="background-image" id="background-image" checked>
+                        </div>
+                    </div>
+                    <div class="shape circle background jquery-ui"></div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>7.Control group</h4>
+                <div class="widget">
+                    <fieldset>
+                        <legend>Rental Car</legend>
+                        <div class="controlgroup-vertical">
+                            <select>
+                             <option>Compact car</option>
+                             <option>Midsize car</option>
+                             <option>Full size car</option>
+                             <option>SUV</option>
+                             <option>Luxury</option>
+                             <option>Truck</option>
+                             <option>Van</option>
+                            </select>
+
+                            <label for="transmission-standard-v">Standard</label>
+                            <input type="radio" name="transmission-v" id="transmission-standard-v">
+                            <label for="transmission-automatic-v">Automatic</label>
+                            <input type="radio" name="transmission-v" id="transmission-automatic-v">
+                            <label for="insurance-v">Insurance</label>
+                            <input type="checkbox" name="insurance" id="insurance-v">
+                            <label for="vertical-spinner" class="ui-controlgroup-label">Number of cars</label>
+                            <input id="vertical-spinner" class="ui-spinner-input">
+                            <button id="book" class="btn">Book Now!</button>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>8.Date picker</h4>
+                <p>Date: <input type="text" id="datepicker" size="30"></p>
+
+                <p>Animations:<br>
+                    <select id="anim">
+    <option value="show">Show (default)</option>
+    <option value="slideDown">Slide down</option>
+    <option value="fadeIn">Fade in</option>
+    <option value="blind">Blind (UI Effect)</option>
+    <option value="bounce">Bounce (UI Effect)</option>
+    <option value="clip">Clip (UI Effect)</option>
+    <option value="drop">Drop (UI Effect)</option>
+    <option value="fold">Fold (UI Effect)</option>
+    <option value="slide">Slide (UI Effect)</option>
+    <option value="">None</option>
+  </select>
+                </p>
+            </div>
+        </div>
+    </div><br>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>9.Menu</h4>
+                <ul id="menu">
+                    <li class="ui-state-disabled">
+                        <div>Toys (n/a)</div>
+                    </li>
+                    <li>
+                        <div>Books</div>
+                    </li>
+                    <li>
+                        <div>Clothing</div>
+                    </li>
+                    <li>
+                        <div>Electronics</div>
+                        <ul>
+                            <li class="ui-state-disabled">
+                                <div>Home Entertainment</div>
+                            </li>
+                            <li>
+                                <div>Car Hifi</div>
+                            </li>
+                            <li>
+                                <div>Utilities</div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div>Movies</div>
+                    </li>
+                    <li>
+                        <div>Music</div>
+                        <ul>
+                            <li>
+                                <div>Rock</div>
+                                <ul>
+                                    <li>
+                                        <div>Alternative</div>
+                                    </li>
+                                    <li>
+                                        <div>Classic</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>Jazz</div>
+                                <ul>
+                                    <li>
+                                        <div>Freejazz</div>
+                                    </li>
+                                    <li>
+                                        <div>Big Band</div>
+                                    </li>
+                                    <li>
+                                        <div>Modern</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>Pop</div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="ui-state-disabled">
+                        <div>Specials (n/a)</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><br>
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>10.Progress bar</h4>
+                <div id="dialog" title="File Download">
+                    <div class="progress-label">Starting download...</div>
+                    <div id="progressbar"></div>
+                </div>
+                <button id="downloadButton">Start Download</button>
+            </div>
+        </div>
+    </div><br>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>11.Spinner</h4>
+                <p>
+                    <label for="spinner">Time spinner:</label>
+                    <input id="spinner" name="spinner" value="08:30 PM">
+                </p>
+                <p>
+                    <label for="culture">Select a culture to use for formatting:</label>
+                    <select id="culture">
+    <option value="en-EN" selected="selected">English</option>
+    <option value="de-DE">German</option>
+  </select>
+                </p>
+
+            </div>
+        </div>
+    </div><br>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>12.Tabs</h4>
+                <div id="tabs">
+                    <ul>
+                        <li><a href="#tabs-1">Nunc tincidunt</a></li>
+                        <li><a href="#tabs-2">Proin dolor</a></li>
+                        <li><a href="#tabs-3">Aenean lacinia</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <h2>Content heading 1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis adipisci similique beatae dolores, rem asperiores voluptate recusandae, quae voluptas neque molestias a, ea molestiae exercitationem harum modi quisquam distinctio, debitis.</p>
+                    </div>
+                    <div id="tabs-2">
+                        <h2>Content heading 2</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae molestiae, aliquid molestias aperiam itaque. Ut laudantium, saepe, ipsam explicabo quibusdam facere cum voluptates dignissimos incidunt est, autem qui! Earum, distinctio!</p>
+                    </div>
+                    <div id="tabs-3">
+                        <h2>Content heading 3</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa atque architecto omnis commodi dolores perferendis enim ipsa, reprehenderit ut impedit? Possimus distinctio quam corporis blanditiis accusamus culpa soluta quisquam doloremque!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+
+    <!--My code ends here-->
+
+
+
+    <!--Scripts starts-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(function() {
+            $(".controlgroup").controlgroup()
+            $(".controlgroup-vertical").controlgroup({
+                "direction": "vertical"
+            });
+        });
+    </script>
+    <script>
+        $(function() {
+            $("#datepicker").datepicker();
+            $("#anim").on("change", function() {
+                $("#datepicker").datepicker("option", "showAnim", $(this).val());
+            });
+        });
+    </script>
+    <script>
+        $(function() {
+            $("#menu").menu();
+        });
+    </script>
+
+    <script>
+        $(function() {
+            var progressTimer,
+                progressbar = $("#progressbar"),
+                progressLabel = $(".progress-label"),
+                dialogButtons = [{
+                    text: "Cancel Download",
+                    click: closeDownload
+                }],
+                dialog = $("#dialog").dialog({
+                    autoOpen: false,
+                    closeOnEscape: false,
+                    resizable: false,
+                    buttons: dialogButtons,
+                    open: function() {
+                        progressTimer = setTimeout(progress, 2000);
+                    },
+                    beforeClose: function() {
+                        downloadButton.button("option", {
+                            disabled: false,
+                            label: "Start Download"
+                        });
+                    }
+                }),
+                downloadButton = $("#downloadButton")
+                .button()
+                .on("click", function() {
+                    $(this).button("option", {
+                        disabled: true,
+                        label: "Downloading..."
+                    });
+                    dialog.dialog("open");
+                });
+
+            progressbar.progressbar({
+                value: false,
+                change: function() {
+                    progressLabel.text("Current Progress: " + progressbar.progressbar("value") + "%");
+                },
+                complete: function() {
+                    progressLabel.text("Complete!");
+                    dialog.dialog("option", "buttons", [{
+                        text: "Close",
+                        click: closeDownload
+                    }]);
+                    $(".ui-dialog button").last().trigger("focus");
+                }
+            });
+
+            function progress() {
+                var val = progressbar.progressbar("value") || 0;
+
+                progressbar.progressbar("value", val + Math.floor(Math.random() * 3));
+
+                if (val <= 99) {
+                    progressTimer = setTimeout(progress, 50);
+                }
+            }
+
+            function closeDownload() {
+                clearTimeout(progressTimer);
+                dialog
+                    .dialog("option", "buttons", dialogButtons)
+                    .dialog("close");
+                progressbar.progressbar("value", false);
+                progressLabel
+                    .text("Starting download...");
+                downloadButton.trigger("focus");
+            }
+        });
+    </script>
+
+    <script>
+        $(function() {
+            $.widget("ui.timespinner", $.ui.spinner, {
+                options: {
+                    // seconds
+                    step: 60 * 1000,
+                    // hours
+                    page: 60
+                },
+
+                _parse: function(value) {
+                    if (typeof value === "string") {
+                        // already a timestamp
+                        if (Number(value) == value) {
+                            return Number(value);
+                        }
+                        return +Globalize.parseDate(value);
+                    }
+                    return value;
+                },
+
+                _format: function(value) {
+                    return Globalize.format(new Date(value), "t");
+                }
+            });
+
+            $("#spinner").timespinner();
+
+            $("#culture").on("change", function() {
+                var current = $("#spinner").timespinner("value");
+                Globalize.culture($(this).val());
+                $("#spinner").timespinner("value", current);
+            });
+        });
+    </script>
+
+    <script>
+        $(function() {
+            $("#tabs").tabs().addClass("ui-tabs-vertical ui-helper-clearfix");
+            $("#tabs li").removeClass("ui-corner-top").addClass("ui-corner-left");
+        });
+    </script>
+
+
+    <!--Scripts ends-->
+
+</body>
+
+</html>

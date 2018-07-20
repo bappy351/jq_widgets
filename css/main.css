@@ -1,0 +1,189 @@
+.draggable {
+    width: 90px;
+    height: 80px;
+    padding: 5px;
+    float: left;
+    margin: 0 10px 10px 0;
+    font-size: .9em;
+}
+
+.ui-widget-header p,
+.ui-widget-content p {
+    margin: 0;
+}
+
+#snaptarget {
+    height: 140px;
+}
+
+.sort_draggable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.sort_draggable_li {
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+}
+
+#draggablec,
+#draggable2c {
+    width: 90px;
+    height: 90px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+#droppable,
+#droppable2 {
+    width: 120px;
+    height: 120px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px;
+}
+
+h5 {
+    clear: left;
+}
+
+#sortable1,
+#sortable2 {
+    border: 1px solid #eee;
+    width: 142px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+}
+
+#sortable1 li,
+#sortable2 li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 120px;
+}
+
+
+.shape {
+    margin-left: 4em;
+    margin-top: 2.5em;
+    height: 8em;
+    width: 8em;
+    box-shadow: 4px 4px 8px;
+    color: #ccc;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 50%;
+}
+
+.circle,
+.pill {
+    border-radius: 8em;
+}
+
+.pill,
+.rectangle {
+    width: 16em;
+}
+
+.square,
+.circle {
+    margin-left: 9em;
+}
+
+.border {
+    border: 2px solid #333333;
+}
+
+.toggles {
+    width: 200px;
+}
+
+.toggle-wrap,
+.shape {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.controls {
+    background: #ccc;
+    padding: 1em;
+    display: inline-block;
+}
+
+.ui-controlgroup-vertical {
+    width: 150px;
+}
+
+.ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+.ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+    text-align: center;
+}
+
+#car-type-button {
+    width: 120px;
+}
+
+.ui-controlgroup-horizontal .ui-spinner-input {
+    width: 20px;
+}
+
+.ui-menu {
+    width: 150px;
+}
+
+
+#progressbar {
+    margin-top: 20px;
+}
+
+.progress-label {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.ui-dialog-titlebar-close {
+    display: none;
+}
+
+.ui-tabs-vertical {
+    width: 55em;
+}
+
+.ui-tabs-vertical .ui-tabs-nav {
+    padding: .2em .1em .2em .2em;
+    float: left;
+    width: 12em;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li {
+    clear: left;
+    width: 100%;
+    border-bottom-width: 1px !important;
+    border-right-width: 0 !important;
+    margin: 0 -1px .2em 0;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li a {
+    display: block;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    padding-bottom: 0;
+    padding-right: .1em;
+    border-right-width: 1px;
+}
+
+.ui-tabs-vertical .ui-tabs-panel {
+    padding: 1em;
+    float: right;
+    width: 40em;
+}
